@@ -1,0 +1,8 @@
+#! /bin/sh
+
+BASEDIR="$(dirname `readlink -f "$0"`)"
+PATH="$BASEDIR/.python3/bin:$PATH"
+
+export PATH
+cd $BASEDIR
+python sws.py

@@ -33,3 +33,14 @@ nosetests.xml
 .mr.developer.cfg
 .project
 .pydevproject
+
+# Virtualenv
+build
+__pycache__
+.python3
+
+# List of recipients
+recipients
+
+# Account info
+zenvia
